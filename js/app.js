@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+
     //you can feed this a name parameter: // for example: https://codepen.io/TrishZwei/pen/aVymNB?name=Trish
 
     //this code for touch detect is found here: http://www.kirupa.com/html5/check_if_you_are_on_a_touch_enabled_device.htm
@@ -538,4 +538,3 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     playBtn.addEventListener('click', playSound, false);
-});
