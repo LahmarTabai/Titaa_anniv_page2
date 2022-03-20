@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
    
+
+
     /* Cube ma7loul  */
 
     var radius = 340;
@@ -108,4 +110,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     playBtn.addEventListener('click', playSound, false);
+
+
+
+    
 });

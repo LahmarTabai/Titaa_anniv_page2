@@ -8,14 +8,31 @@ body{
 
 
 #message{
-max-width: 60rem;
-font-size: 1.5rem;
-color: white;
-text-align: center;
-margin: 3rem auto;
-/* position: relative; */
-
+    max-width: 60rem;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 3rem auto;
+    animation: textep 3s linear infinite alternate;
 }
+
+#message:hover {
+    animation: paused;
+}
+
+
+@keyframes textep {
+    from{
+        transform: translate(10rem);
+        
+    }
+    to{
+        transform: translate(-10rem);
+        
+    }
+    
+}
+
 canvas{
 	cursor: crosshair;
 	display: block;
